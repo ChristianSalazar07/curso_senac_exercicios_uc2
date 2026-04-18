@@ -1,8 +1,11 @@
 h2 {
-    color: rgb(0, 131, 163);
+    color: rgb(0, 131, 163)
 }
 a {
     color: rgb(0, 255, 234)
+}
+a:hover{
+    color: rgb(0, 218, 199);
 }
 body {
     background-color: rgb(19, 52, 53);

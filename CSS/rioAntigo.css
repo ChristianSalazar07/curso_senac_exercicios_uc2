@@ -1,0 +1,22 @@
+a{
+    color: aqua;
+    font-style: italic;
+}
+h2 {
+    color: white;
+}
+article{
+    color: antiquewhite;
+}
+body {
+    background-color: rgb(37, 37, 37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.curiosidade{
+    color:rgb(177, 177, 177)
+}
+.curiosidade::before{
+    content: "Curiosidades:";
+    color: rgb(209, 209, 209)
+}
