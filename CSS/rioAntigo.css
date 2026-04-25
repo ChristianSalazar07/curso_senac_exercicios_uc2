@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 a{
     color: aqua;
     font-style: italic;
+}
+a:hover{
+    color: rgb(0, 218, 199);
 }
 h2 {
     color: white;
@@ -43,10 +47,21 @@ main{
 }
 .curiosidade::before{
     content: "Curiosidades:";
-    color: rgb(209, 209, 209)
+    color: rgb(209, 209, 209);
+    font-weight: bold;
 }
 footer{
+    font-family: "Roboto", sans-serif;
     border-top: 20px solid rgb(143, 143, 143);
     background-color: #4d4d4d;
     padding: 16px;
+}
+div.caixa{
+    padding: 20px;
+}
+.vmenu ol li{
+    margin: 0 0 10px 0
+}
+.vmenu ul li{
+    margin: 0 0 10px 0
 }
