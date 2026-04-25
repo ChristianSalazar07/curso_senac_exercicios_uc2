@@ -15,12 +15,13 @@ body {
     font-size: 25px;
 }
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 30px;
     text-align: center;
     font-size: 70px;
     z-index: 1000;
+    margin: 0 auto;
 }
 .sticky{
     position: sticky;
@@ -33,7 +34,9 @@ header{
     z-index: 2;
 }
 main{
-    width: 70%;
+    position: static;
+    text-align: justify;
+    width: 75%;
 }
 .curiosidade{
     color:rgb(177, 177, 177)
@@ -43,6 +46,7 @@ main{
     color: rgb(209, 209, 209)
 }
 footer{
-    background-color: #5f5f5f;
+    border-top: 20px solid rgb(143, 143, 143);
+    background-color: #4d4d4d;
     padding: 16px;
 }
