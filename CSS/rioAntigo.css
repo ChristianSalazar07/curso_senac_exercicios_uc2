@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    font-size: 16px;
+}
 a{
     color: aqua;
     font-style: italic;
@@ -16,16 +19,22 @@ body {
     background-color: rgb(37, 37, 37);
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 header{
     background-color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 30px;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.375rem;
     z-index: 1000;
     margin: 0 auto;
+}
+hr{
+    width: 75%;
+    height: 2px;
+    color: white;
+    background-color: white;
 }
 .sticky{
     position: sticky;
@@ -59,9 +68,7 @@ footer{
 div.caixa{
     padding: 20px;
 }
-.vmenu ol li{
-    margin: 0 0 10px 0
-}
-.vmenu ul li{
+.vmenu li{
+    font-size: 1.3rem;
     margin: 0 0 10px 0
 }

@@ -1,0 +1,30 @@
+html{
+    font-size: 16px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 6rem;
+    z-index: 1000;
+    margin: 0 auto;
+}
+.secao{
+    font-size: 1.673rem;
+}
+body{
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+img.logo{
+    height: 200px;
+}
+footer{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(143, 143, 143);
+    padding: 16px;
+}
