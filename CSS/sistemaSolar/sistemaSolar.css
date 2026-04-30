@@ -3,6 +3,7 @@ html{
 }
 header{
     background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(64, 54, 37) 5%, black 90%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 30px;
     display: flex;
@@ -14,17 +15,57 @@ header{
     margin: 0 auto;
 }
 .secao{
+    text-align: center;
     font-size: 1.673rem;
+}
+.gradiente-texto{
+    color: rgb(255, 255, 255);
+    -webkit-mask-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 1)),
+        to(rgba(0, 0, 0, 0.3))
+    );
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.3)
+    );
+}
+article{
+    text-align: center;
+    width: 65%;
+}
+.central{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 body{
     color: white;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(12, 12, 12);
+}
+.gradiente-espacial{
+    font-size: 1.673rem;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/08/36/56/47/360_F_836564796_Q8Q2MpByNPQuEL0V2FMlshfEtQDj2LwL.png),
+     linear-gradient(to bottom,black 75%, orange);
+    background-repeat: repeat, no-repeat;
+}
+.fundo-espacial{
+    font-size: 1.673rem;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/08/36/56/47/360_F_836564796_Q8Q2MpByNPQuEL0V2FMlshfEtQDj2LwL.png);
+    background-repeat: repeat;
 }
 img.logo{
     height: 200px;
 }
 footer{
     font-family: "Roboto", sans-serif;
-    background-color: rgb(143, 143, 143);
+    background-color: rgb(73, 73, 73);
     padding: 16px;
 }
