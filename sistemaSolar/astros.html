@@ -11,11 +11,13 @@
     <header><img style="transform: scaleX(-1);" class="logo" src="../img/solarSystemLogoPng.png"> Sistema Solar</header>
     <section class="secao">
         <h3 class="central gradiente-texto">Bem vindo ao Sistema Solar</h3>
-        <p> Nesta página, você encontrará informações sobre os astros presentes no sistema solar</p>
+        <p class="texto-inicial"> Nesta página, você encontrará informações e curiosidades sobre os astros presentes no sistema solar.</p>
     </section>
     <hr class="divisor">
-    <div class="nav-sticky  "><nav class="vmenu">
-        Seções:
+    <div class="nav-sticky">
+        <nav class="vmenu">
+        <button type="button" class="colapsavel">Seções:</button>
+        <div class="content">
         <ul>
             <li><a class="nav-link" style="color: rgb(255, 255, 255);" href="#cometas">Cometas</a></li>
             <li><a class="nav-link" style="color: rgb(255, 176, 176);" href="#plutao">Plutão</a></li>
@@ -30,7 +32,9 @@
             <li><a class="nav-link" style="color: rgb(210, 165, 82);" href="#venus">Vênus</a></li>
             <li><a class="nav-link" style="color: grey;" href="#mercurio">Mercúrio</a></li>
             <li><a class="nav-link" style="color: yellow;" href="#sol">Sol</a></li>
-        </ul></nav>
+        </ul>
+        </div>
+        </nav>
     </div>
     <hr class="divisor">
     <main>
@@ -53,7 +57,7 @@
         <div>
             <h3 id="plutao" class="central gradiente-texto" style="color: rgb(255, 178, 178);">Plutão</h3>
             <div class="central">
-            <img width=15% style="padding: 30px;" src="https://content-media.astrologialuzesombra.com.br/wp-content/uploads/2021/04/AstrologiaLuzeSombra-pluto-2201446_1920.png">
+            <img width=15% style="padding: 30px;" src="https://w3ask.com/img/pluto.png">
             </div>
             <div class="central">
                 <article>
@@ -191,7 +195,7 @@ astro do grupo de planetas-anões.
         <div>
             <h3 id="terra" class="central gradiente-texto" style="color: rgb(0, 255, 0);">Terra</h3>
             <div class="central">
-                <img width="25%" src="https://cdn.creazilla.com/cliparts/79039/planet-earth-clipart-lg.png">
+                <img width="25%" src="https://www.grupoesperancarural.com.br/wp-content/uploads/2021/04/Planeta-Terra.png">
             </div>
             <div class="central">
                 <article>
@@ -205,7 +209,7 @@ astro do grupo de planetas-anões.
         <div>
             <h3 id="lua" class="central gradiente-texto" style="color: rgb(161, 161, 161);">Lua</h3>
             <div class="central">
-                <img width="15%" src="https://play-lh.googleusercontent.com/13bG-yQS8wU5YKOEqAAC0Xe7N8RE4HNaKQ7-VTOMMaVsBtQM2G3jAXuan7shKRUDQg=w240-h480-rw">
+                <img width="14%" src="https://play-lh.googleusercontent.com/13bG-yQS8wU5YKOEqAAC0Xe7N8RE4HNaKQ7-VTOMMaVsBtQM2G3jAXuan7shKRUDQg=w240-h480-rw">
             </div>
             <div class="central">
                 <article>
@@ -259,11 +263,13 @@ astro do grupo de planetas-anões.
             </div>
             <div class="central">
                 <article>
+                    <p>
                     É o planeta mais próximo ao Sol e o menor do Sistema Solar. É rochoso, praticamente sem atmosfera, e a sua
                     temperatura varia muito, chegando a mais de 400ºC positivos, no lado voltado para o Sol, e cerca de 180ºC
                     negativos, no lado oposto. Mercúrio não tem satélite. É o planeta que possui um movimento de translação de
                     maior velocidade (o ano mercuriano tem apenas 88 dias). O aspecto da superfície é parecido com o da nossa
                     Lua, toda coberta de crateras, originadas da colisão com corpos celestes.
+                    </p>
                 </article>
             </div>
         </div>
@@ -304,5 +310,21 @@ astro do grupo de planetas-anões.
         <li>2026</li>
     </ul>
 </footer>
+<script>
+    var coll = document.getElementsByClassName("colapsavel");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+</script>
 </body>
 </html>

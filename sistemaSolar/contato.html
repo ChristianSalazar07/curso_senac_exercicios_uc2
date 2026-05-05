@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/sistemaSolar/sistemaSolar.css">
+    <link rel="icon" type="image/x-icon" href="../img/sunFavicon.ico">
+    <title>Entre em Contato!</title>
+</head>
+<body class="fundo-espacial">
+    <header><img style="transform: scaleX(-1);" class="logo" src="../img/solarSystemLogoPng.png"> Sistema Solar</header>
+    <section class="secao">
+        <h3 class="central gradiente-texto">Entre em contato conosco!</h3>
+        Para retornar à página principal, aperte <a href="index.html" style="color: aqua;" class="nav-link">aqui!</a>
+    </section>
+    <div class="divform">
+        <form name="formContato" id="idContato" action="#" method="post">
+            <fieldset>
+                <legend>Suas informações:</legend>
+                <div class="label">
+                    <label for="idNome">Nome*:</label>
+                </div>
+                <input type="text" id="idNome" name="nome" maxlength="70" placeholder="Digite seu nome" required>
+                <div class="label">
+                    <label for="idEmail">Email*:</label>
+                </div>
+                <input type="email" id="idEmail" name="email" maxlength="100" placeholder="Digite seu email" required>
+                <div class="label">
+                    <label for="idTelefone">Telefone*:</label>
+                </div>
+                <input type="tel" id="idTelefone" name="telefone" maxlength="19" placeholder="Digite seu telefone" required>
+                <div class="label">
+                    <label for="idGenero">Gênero:</label>
+                </div>
+                <input type="radio" id="idGeneroM" name="genero" value="M" class="radio">
+                <label for="idGeneroM" name="genero" class="label-radio">Masculino</label>
+
+                <input type="radio" id="idGeneroF" name="genero" value="F" class="radio">
+                <label for="idGeneroF" name="genero" class="label-radio">Feminino</label>
+
+                <input type="radio" id="idGeneroO" name="genero" value="O" class="radio">
+                <label for="idGeneroO" name="genero" class="label-radio">Outros</label>
+                <div class="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<footer>
+    <ul>
+        <li>Christian Alexander Salazar Morillo</li>
+        <li>christian.morillo@aluno.senac.rio</li>
+        <li>Programação em Python - SENAC RJ - Botafogo</li>
+        <li>2026</li>
+    </ul>
+</footer>
+</html>
