@@ -61,7 +61,7 @@ body{
     height: 100%;
     width: 100%;
     background-image: url(https://t4.ftcdn.net/jpg/08/36/56/47/360_F_836564796_Q8Q2MpByNPQuEL0V2FMlshfEtQDj2LwL.png),
-     linear-gradient(to bottom,black 75%, orange);
+     linear-gradient(to bottom,black 75%, orange 87%);
     background-repeat: repeat, no-repeat;
 }
 .fundo-espacial{
@@ -75,9 +75,10 @@ img.logo{
     height: 200px;
 }
 .rodape-solar{
+    border: 5px solid rgb(46, 30, 0);
     color:black;
     font-family: "Roboto", sans-serif;
-    background-color: rgba(255, 165, 0, 0.3);
+    background-color: rgba(158, 103, 0, 0.3);
     padding: 16px;
 }
 footer{
@@ -125,7 +126,7 @@ footer{
     display: none;
     overflow: hidden;
 }
-.active, .colapsavel:hover {
+.colapsavel:hover {
     background-color: #000000;
 }
 .divform{
