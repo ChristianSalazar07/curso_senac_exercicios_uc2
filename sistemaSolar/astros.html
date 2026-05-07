@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astros</title>
-    <link rel="stylesheet" href="../css/sistemaSolar/sistemaSolar.css">
-    <link rel="icon" type="image/x-icon" href="../img/sunFavicon.ico">
+    <link rel="stylesheet" href="css/sistemaSolar.css">
+    <link rel="icon" type="image/x-icon" href="img/sunFavicon.ico">
 </head>
 <body class="gradiente-espacial">
     <header><img style="transform: scaleX(-1);" class="logo" src="../img/solarSystemLogoPng.png"> Sistema Solar</header>
     <section class="secao">
         <h3 class="central gradiente-texto">Bem vindo ao Sistema Solar</h3>
-        <p class="texto-inicial"> Nesta página, você encontrará informações e curiosidades sobre os astros presentes no sistema solar.</p>
+        <p class="central"> Nesta página, você encontrará informações e curiosidades sobre os astros presentes no sistema solar.</p>
     </section>
     <hr class="divisor">
-    <div class="nav-sticky">
+    <div class="nav-fixed">
         <nav class="vmenu">
         <button type="button" class="colapsavel">Seções:</button>
         <div class="content">
@@ -25,11 +25,11 @@
             <li><a class="nav-link" style="color: rgb(188, 255, 243);" href="#urano">Urano</a></li>
             <li><a class="nav-link" style="color: rgb(255, 232, 148);" href="#saturno">Saturno</a></li>
             <li><a class="nav-link" style="color: rgb(185, 126, 17);" href="#jupiter">Júpiter</a></li>
-            <li><a class="nav-link" style="color: rgb(81, 81, 81);" href="#asteroides">Asteroides</a></li>
+            <li><a class="nav-link" style="color: rgb(88, 88, 88);" href="#asteroides">Asteroides</a></li>
             <li><a class="nav-link" style="color: red;" href="#marte">Marte</a></li>
             <li><a class="nav-link" style="color: greenyellow;" href="#terra">Terra</a></li>
             <li><a class="nav-link" style="color: rgb(201, 201, 201);" href="#lua">Lua</a></li>
-            <li><a class="nav-link" style="color: rgb(210, 165, 82);" href="#venus">Vênus</a></li>
+            <li><a class="nav-link" style="color: rgb(165, 130, 64);" href="#venus">Vênus</a></li>
             <li><a class="nav-link" style="color: grey;" href="#mercurio">Mercúrio</a></li>
             <li><a class="nav-link" style="color: yellow;" href="#sol">Sol</a></li>
         </ul>
@@ -62,11 +62,11 @@
             <div class="central">
                 <article>
                     Plutão que recebera o nome do deus dos infernos, da mitologia greco-latina, foi classificado como o nono
-planeta do Sistema Solar. Descoberto em 1930, pelo astrônomo norte-americano Clyde Tombaugh, esse astro
-foi sempre motivo de acirrados debates. Afinal, as características do planetoide, entre outras a excentricidade de
-sua órbita inclinada, em que certos períodos cruza a órbita de Netuno, já indicavam que dificilmente ela poderia
-permanecer na elite dos planetas do nosso Sistema. Realmente, 76 anos depois, a UAI resolveu reclassificar o
-astro do grupo de planetas-anões.
+                    planeta do Sistema Solar. Descoberto em 1930, pelo astrônomo norte-americano Clyde Tombaugh, esse astro
+                    foi sempre motivo de acirrados debates. Afinal, as características do planetoide, entre outras a excentricidade de
+                    sua órbita inclinada, em que certos períodos cruza a órbita de Netuno, já indicavam que dificilmente ela poderia
+                    permanecer na elite dos planetas do nosso Sistema. Realmente, 76 anos depois, a UAI resolveu reclassificar o
+                    astro do grupo de planetas-anões.
                 </article>
             </div>
             <div class="central">
@@ -302,6 +302,7 @@ astro do grupo de planetas-anões.
             </div>
         </div>
     </main>
+    <h2 class="central">Para aprender mais sobre o sistema solar, visite uma de nossas outras páginas.</h2>
 <footer class="rodape-solar">
     <ul>
         <li>Christian Alexander Salazar Morillo</li>
@@ -310,6 +311,15 @@ astro do grupo de planetas-anões.
         <li>2026</li>
     </ul>
 </footer>
+<menu>
+    <ul class="navmenu">
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="astros.html">Astros</a></li>
+        <li><a href="movimentos.html">Movimentos Planetários</a></li>
+        <li><a class="active" href="contato.html">Contate-nos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+</menu>
 <script>
     var coll = document.getElementsByClassName("colapsavel");
     var i;

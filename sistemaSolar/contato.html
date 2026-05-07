@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/sistemaSolar/sistemaSolar.css">
-    <link rel="icon" type="image/x-icon" href="../img/sunFavicon.ico">
+    <link rel="stylesheet" href="css/sistemaSolar.css">
+    <link rel="icon" type="image/x-icon" href="img/sunFavicon.ico">
     <title>Entre em Contato!</title>
 </head>
 <body class="fundo-espacial">
@@ -40,6 +40,22 @@
 
                 <input type="radio" id="idGeneroO" name="genero" value="O" class="radio">
                 <label for="idGeneroO" name="genero" class="label-radio">Outros</label>
+                <div class="label">
+                        <label for="idAssunto">Assunto</label>
+                    </div>
+                    <select name="assunto" id="idAssunto" required>
+                        <option value="0" selected>Selecione...</option>
+                        <option value="E">Elogio</option>
+                        <option value="C">Crítica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
+                    <div class="label">
+                        <label for="idMensagem">Mensagem</label>
+                    </div>                        
+                    <textarea rows="10" cols="200" id="idMensagem" 
+                              name="mensagem" placeholder="Preencha com a mensagem desejada" 
+                              class="minhaTextArea"></textarea>
                 <div class="botoes">
                     <button type="reset">Limpar</button>
                     <button type="submit">Enviar</button>
@@ -56,4 +72,13 @@
         <li>2026</li>
     </ul>
 </footer>
+<menu>
+    <ul class="navmenu">
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="astros.html">Astros</a></li>
+        <li><a href="movimentos.html">Movimentos Planetários</a></li>
+        <li><a class="active" href="contato.html">Contate-nos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+</menu>
 </html>
