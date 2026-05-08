@@ -97,6 +97,9 @@ footer{
   background-color: #2c2c2c;
   width: 97%;
 }
+.navmenutop{
+    background-color: #131313;
+}
 .navmenu li a {
   display: block;
   color: #ffffff;
@@ -203,6 +206,10 @@ footer{
     border: 1px solid #5a5a5a;
     border-radius: 5px;
     font-size: 16px;
+    background-color: rgb(49, 49, 49);
+    color: azure;
+}
+.minhaTextArea {
     background-color: rgb(49, 49, 49);
     color: azure;
 }
